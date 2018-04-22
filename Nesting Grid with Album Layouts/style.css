@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+}
+
 .albums {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -6,7 +10,7 @@
 
 .album {
     background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
     padding: 20px;
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -14,6 +18,7 @@
     align-items: center;
     color: white;
     font-weight: 100;
+    border-radius: 5px 50px 30px;
 }
 
 .album__artwork {
