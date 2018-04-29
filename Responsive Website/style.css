@@ -30,7 +30,7 @@ img {
 .hero {
   grid-area: hero;
   min-height: 400px;
-  background: White url("https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8479a73ae3b8e556bada71a2b661adac&auto=format&fit=crop&w=1350&q=80");
+  background: white url(images/taco.jpg);
   background-size: cover;
   background-position: bottom right;
   padding: 50px;
